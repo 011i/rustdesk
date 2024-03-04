@@ -317,9 +317,9 @@ jobs:
         job:
           - {
               target: x86_64-apple-darwin,
-              os: macos-latest,
+              os: macos-14,
               extra-build-args: "",
-              arch: x86_64
+              arch: arm64
             }
     steps:
       - name: Export GitHub Actions cache environment variables
